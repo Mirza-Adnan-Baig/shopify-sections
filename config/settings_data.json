@@ -124,20 +124,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "text_alignment": "center",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
@@ -220,6 +206,12 @@
         "settings": {
           "title": "SNOCKS SALE",
           "enable_countdown": true
+        }
+      },
+      "snocks-nav": {
+        "type": "snocks-nav",
+        "settings": {
+          "enable_shocksheader": true
         }
       }
     },
