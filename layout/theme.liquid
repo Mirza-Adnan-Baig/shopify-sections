@@ -429,6 +429,8 @@
     </script>
     <!--Banner-->
     {{ 'countdown.js' | asset_url | script_tag }}
+    {{ 'snocks-product.js' | asset_url | script_tag }}
+    {{ 'snocks-product.css' | asset_url | stylesheet_tag }}
     {{ 'countdown.css' | asset_url | stylesheet_tag }}
     {{ 'snocks-header.css' | asset_url | stylesheet_tag }}
   </head>
@@ -437,6 +439,7 @@
     <!--Banner-->
     {%- section 'countdown-bar' -%}
     
+    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -444,7 +447,7 @@
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
-
+    
     <!--{% section 'announcement-bar' %}-->
     <!--{% section 'header' %}-->
     {%- section 'snocks-nav' -%}
@@ -454,8 +457,8 @@
       role="main"
       tabindex="-1">
       {{ content_for_layout }}
+      {%-  section 'page-product-snocks' -%}
     </main>
-
     {% section 'footer' %}
 
     <ul hidden>
@@ -496,5 +499,6 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    
   </body>
 </html>
