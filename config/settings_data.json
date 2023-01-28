@@ -221,6 +221,12 @@
           "title": "SNOCKS SALE",
           "enable_countdown": true
         }
+      },
+      "snocks-nav": {
+        "type": "snocks-nav",
+        "settings": {
+          "enable_shocksheader": true
+        }
       }
     },
     "content_for_index": [
