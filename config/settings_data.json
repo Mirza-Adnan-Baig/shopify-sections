@@ -214,8 +214,18 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "countdown-bar": {
+        "type": "countdown-bar",
+        "settings": {
+          "title": "SNOCKS SALE",
+          "enable_countdown": true
+        }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
