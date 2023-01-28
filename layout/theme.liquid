@@ -438,8 +438,7 @@
   <body class="gradient">
     <!--Banner-->
     {%- section 'countdown-bar' -%}
-    
-    
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -447,7 +446,7 @@
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
-    
+
     <!--{% section 'announcement-bar' %}-->
     <!--{% section 'header' %}-->
     {%- section 'snocks-nav' -%}
@@ -457,7 +456,6 @@
       role="main"
       tabindex="-1">
       {{ content_for_layout }}
-      {%-  section 'page-product-snocks' -%}
     </main>
     {% section 'footer' %}
 
@@ -499,6 +497,6 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    
+    {%- section 'page-product-snocks' -%}
   </body>
 </html>
