@@ -1,5 +1,42 @@
 {
   "sections": {
+    "10cf2675-7d19-4fa9-a00c-3b8a857d89f2": {
+      "type": "masonry",
+      "blocks": {
+        "d7beca28-e3ad-4db6-bce7-fa406be0fe81": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "text": "image1",
+            "url": "https:\/\/www.youtube.com"
+          }
+        },
+        "d617b898-dcf8-4863-8ecb-74bcb273e18a": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg",
+            "text": "image2",
+            "url": "https:\/\/www.youtube.com"
+          }
+        },
+        "8c2454ae-00cc-440b-8153-221a0a492fc9": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glass-with-iced-red-beverage-reflects-on-a-white-table.jpg",
+            "text": "Image3",
+            "url": "https:\/\/www.youtube.com"
+          }
+        }
+      },
+      "block_order": [
+        "d7beca28-e3ad-4db6-bce7-fa406be0fe81",
+        "d617b898-dcf8-4863-8ecb-74bcb273e18a",
+        "8c2454ae-00cc-440b-8153-221a0a492fc9"
+      ],
+      "settings": {
+        "masonry-grid": ""
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -212,6 +249,7 @@
     }
   },
   "order": [
+    "10cf2675-7d19-4fa9-a00c-3b8a857d89f2",
     "image_banner",
     "rich_text",
     "featured_collection",
