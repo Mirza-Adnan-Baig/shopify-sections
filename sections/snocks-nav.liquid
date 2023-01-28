@@ -1,5 +1,5 @@
 {% if section.settings.enable_shocksheader %}
-<section class="countdown-bar-container">
+<section>
     <div class="topnav">
         <a class="active" href="#home">Home</a>
         <a href="#news">Snocks</a>
@@ -8,26 +8,23 @@
     </div>
 </section>
 {% endif %}
-    <div class="Countdown-bar-header">
-      <h1>{{ section.settings.title }}</h1>
-    </div>
 
     {% schema %}
         {
-          "name": "Snocks Header",
-          "settings": [
+        "name": "Snocks Header",
+        "settings": [
             // {
             //   "type": "text",
             //   "id": "title",
             //   "default": "SALE TEXT HERE",
             //   "label": "Countdown Heading Title"
             // }, 
-            {
-              "type": "checkbox",
-              "id": "enable_shocksheader",
-              "default": false,
-              "label": "Snocks Header"
-            }
-          ]
+        {
+        "type": "checkbox",
+        "id": "enable_shocksheader",
+        "default": false,
+        "label": "Snocks Header"
         }
-      {% endschema %}
+        ]
+        }
+    {% endschema %}
