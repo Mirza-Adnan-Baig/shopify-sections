@@ -205,13 +205,18 @@
         "type": "countdown-bar",
         "settings": {
           "title": "SNOCKS SALE",
-          "enable_countdown": true
+          "enable_countdown": false
         }
       },
       "snocks-nav": {
         "type": "snocks-nav",
         "settings": {
           "enable_shocksheader": true
+        }
+      },
+      "page-product-snocks": {
+        "type": "page-product-snocks",
+        "settings": {
         }
       }
     },
